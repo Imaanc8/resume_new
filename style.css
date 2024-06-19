@@ -1,21 +1,134 @@
-
-
-
-body {
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+/* Global styles */
+* {
     margin: 0;
-    padding-left: 20px;
+    padding: 0;
+    box-sizing: border-box;
 }
 
-.resume {
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: #f0f0f0;
+    display: flex;
+    justify-content: center;
+}
+
+.container {
     max-width: 800px;
-    margin: 20px auto;
+    margin: 0 auto;
     padding: 20px;
-    background-color: #ffffff;
-    border-radius: 10px;
+}
+
+/* Sidebar styles */
+.sidebar {
+    width: 250px;
+    background-color: #4b545e;
+    color: #fff;
+    padding: 20px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 100%;
+    overflow-y: auto; /* Enables scrolling if content exceeds sidebar height */
+}
+
+.sidebar h3 {
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+.sidebar ul {
+    list-style-type: none;
+    padding: 0;
+    margin-bottom: 20px;
+}
+
+.sidebar ul li {
+    margin-bottom: 10px;
+}
+
+.sidebar ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 18px;
+    display: block;
+    padding: 5px 0;
+    transition: color 0.3s ease;
+}
+
+.sidebar ul li a:hover {
+    color: #f0f0f0;
+}
+
+.sidebar p {
+    font-size: 16px;
+    margin-bottom: 10px;
+}
+
+/* Main content styles */
+.content {
+    margin-left: 250px; /* Adjust according to sidebar width */
+    width: calc(100% - 250px); /* Adjust to ensure main content fills remaining space */
+}
+
+header {
+    background-color: #606872;
+    color: #fff;
+    text-align: center;
+    padding: 40px 0;
 }
 
 header h1 {
     font-size: 36px;
-  
+}
+
+header p {
+    font-size: 20px;
+}
+
+main {
+    padding: 40px 20px;
+}
+
+section {
+    padding-bottom: 40px;
+}
+
+h2 {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+.job, .school {
+    margin-bottom: 20px;
+}
+
+.job h3, .school h3 {
+    font-size: 20px;
+}
+
+.date {
+    font-style: italic;
+    margin-bottom: 10px;
+}
+
+footer {
+    text-align: center;
+    padding: 20px 0;
+    background-color: #333;
+    color: #fff;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
 
