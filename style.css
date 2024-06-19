@@ -1,4 +1,4 @@
-/* Global styles */
+
 * {
     margin: 0;
     padding: 0;
@@ -19,17 +19,16 @@ body {
     padding: 20px;
 }
 
-/* Sidebar styles */
 .sidebar {
     width: 250px;
-    background-color: #4b545e;
+    background-color: #45484d;
     color: #fff;
     padding: 20px;
     position: fixed;
     top: 0;
     left: 0;
     height: 100%;
-    overflow-y: auto; /* Enables scrolling if content exceeds sidebar height */
+    overflow-y: auto; 
 }
 
 .sidebar h3 {
@@ -65,10 +64,10 @@ body {
     margin-bottom: 10px;
 }
 
-/* Main content styles */
+
 .content {
-    margin-left: 250px; /* Adjust according to sidebar width */
-    width: calc(100% - 250px); /* Adjust to ensure main content fills remaining space */
+    margin-left: 250px; 
+    width: calc(100% - 250px); 
 }
 
 header {
